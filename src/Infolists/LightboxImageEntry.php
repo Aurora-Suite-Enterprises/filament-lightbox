@@ -4,6 +4,7 @@ namespace Njxqlus\Filament\Components\Infolists;
 
 use Closure;
 use Filament\Infolists\Components\ImageEntry;
+use Illuminate\Database\Eloquent\Model;
 use Njxqlus\Filament\Components\GLightBox;
 use Njxqlus\Filament\Components\HasGLightBox;
 
