@@ -63,9 +63,3 @@
         {{ $slot }}
     </a>
 </x-dynamic-component>
-
-@pushonce('scripts')
-    <script type="module">
-      const lightbox = GLightbox(@json(config('filament-lightbox')));
-    </script>
-@endpushonce
